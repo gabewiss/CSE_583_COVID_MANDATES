@@ -8,5 +8,5 @@ setup(name='Distutils',
       author='Greg Ward',
       author_email='gward@python.net',
       url='https://www.python.org/sigs/distutils-sig/',
-      packages=['distutils', 'distutils.command'],
+      packages=['pandas', 'distutils.command'],
      )
