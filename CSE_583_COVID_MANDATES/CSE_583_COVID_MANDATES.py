@@ -1,6 +1,6 @@
 def CSE_583_COVID_MANDATES(ya):
     """
-    Function to get tavisci.yml working. Not working yet
+    Function to get tavisci.yml working. Not working yet. Not working yet
     """
 
     ya = ya
