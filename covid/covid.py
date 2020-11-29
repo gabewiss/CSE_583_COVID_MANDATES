@@ -4,5 +4,5 @@ def CSE_583_COVID_MANDATES(ya):
     how about now. 4th attempt?
     """
 
-    ya = ya
-    return ya
+    ya1 = ya
+    return ya1
