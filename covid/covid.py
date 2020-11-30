@@ -9,5 +9,5 @@ def covid(not_important):
     how about now. 4th attempt?
     """
 
-    not_important = not_important
-    return ya1
+    not_important1 = not_important
+    return not_important1
