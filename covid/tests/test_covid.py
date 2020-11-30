@@ -15,8 +15,6 @@ class UnitTests(unittest.TestCase):
 
     """
 
-
-
     def test_smoke(self):
         """
         Testing the travis
@@ -25,6 +23,7 @@ class UnitTests(unittest.TestCase):
         not_important = 3
 
         covid.covid(not_important)
+
 
 suite = unittest.TestLoader().loadTestsFromTestCase(UnitTests)
 _ = unittest.TextTestRunner().run(suite)
