@@ -22,9 +22,9 @@ class UnitTests(unittest.TestCase):
         Testing the travis
 
         """
-        ya = 3
+        not_important = 3
 
-        covid(ya)
+        covid(not_important)
 
         self.assertTrue(True)
 
