@@ -26,7 +26,6 @@ class UnitTests(unittest.TestCase):
 
         covid.covid(not_important)
 
-        self.assertTrue
 
 suite = unittest.TestLoader().loadTestsFromTestCase(UnitTests)
 _ = unittest.TextTestRunner().run(suite)
