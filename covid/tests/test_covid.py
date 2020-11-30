@@ -24,7 +24,7 @@ class UnitTests(unittest.TestCase):
         """
         not_important = 3
 
-        covid(not_important)
+        covid.covid(not_important)
 
         self.assertTrue
 
