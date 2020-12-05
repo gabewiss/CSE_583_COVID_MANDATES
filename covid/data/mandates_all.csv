@@ -1,0 +1,314 @@
+state_id,policy_level,date,policy_type,start_stop,state,population
+AL,state,2020-09-30,Non-Essential Businesses,start,Alabama,4888949
+AL,state,2020-07-16,Mask Wearing,start,Alabama,4888949
+AL,state,2020-04-04,Shelter in Place,start,Alabama,4888949
+AL,state,2020-05-11,Outdoor and Recreation,start,Alabama,4888949
+AL,state,2020-07-16,Mask Wearing,start,Alabama,4888949
+AL,state,2020-05-11,Food and Drink,start,Alabama,4888949
+AL,state,2020-05-11,Mask Wearing,start,Alabama,4888949
+DC,state,2020-04-17,Mask Wearing,start,District of Columbia,703608
+DC,state,2020-04-15,Mask Wearing,start,District of Columbia,703608
+DC,state,2020-06-22,Mask Wearing,start,District of Columbia,703608
+DC,state,2020-06-22,Food and Drink,start,District of Columbia,703608
+DC,state,2020-06-22,Non-Essential Businesses,start,District of Columbia,703608
+DC,state,2020-04-01,Shelter in Place,start,District of Columbia,703608
+DC,state,2020-06-22,Outdoor and Recreation,start,District of Columbia,703608
+MO,state,2020-05-04,Outdoor and Recreation,start,Missouri,6135888
+MO,state,2020-05-04,Non-Essential Businesses,start,Missouri,6135888
+MO,state,2020-04-06,Shelter in Place,start,Missouri,6135888
+MO,state,2020-06-01,Food and Drink,start,Missouri,6135888
+IN,state,2020-03-23,Non-Essential Businesses,start,Indiana,6699629
+IN,state,2020-07-27,Mask Wearing,start,Indiana,6699629
+IN,state,2020-03-24,Shelter in Place,start,Indiana,6699629
+IN,state,2020-03-23,Outdoor and Recreation,start,Indiana,6699629
+IN,state,2020-07-27,Mask Wearing,start,Indiana,6699629
+IN,state,2020-03-23,Food and Drink,start,Indiana,6699629
+IN,state,2020-05-01,Mask Wearing,start,Indiana,6699629
+NJ,state,2020-04-08,Mask Wearing,start,New Jersey,9032872
+NJ,state,2020-06-15,Non-Essential Businesses,start,New Jersey,9032872
+NJ,state,2020-03-21,Shelter in Place,start,New Jersey,9032872
+NJ,state,2020-07-08,Mask Wearing,start,New Jersey,9032872
+NJ,state,2020-06-15,Outdoor and Recreation,start,New Jersey,9032872
+NJ,state,2020-04-08,Mask Wearing,start,New Jersey,9032872
+NJ,state,2020-06-15,Food and Drink,start,New Jersey,9032872
+VA,state,2020-03-30,Shelter in Place,start,Virginia,8525660
+VA,state,2020-05-29,Mask Wearing,start,Virginia,8525660
+VA,state,2020-05-29,Mask Wearing,start,Virginia,8525660
+VA,state,2020-05-19,Outdoor and Recreation,start,Virginia,8525660
+VA,state,2020-06-05,Food and Drink,start,Virginia,8525660
+VA,state,2020-06-05,Non-Essential Businesses,start,Virginia,8525660
+VA,state,2020-06-05,Food and Drink,start,Virginia,8525660
+WV,state,2020-05-26,Outdoor and Recreation,start,West Virginia,1803077
+WV,state,2020-03-24,Shelter in Place,start,West Virginia,1803077
+WV,state,2020-07-07,Mask Wearing,start,West Virginia,1803077
+WV,state,2020-05-04,Mask Wearing,start,West Virginia,1803077
+WV,state,2020-03-18,Food and Drink,start,West Virginia,1803077
+WV,state,2020-03-24,Non-Essential Businesses,start,West Virginia,1803077
+WV,state,2020-07-07,Mask Wearing,start,West Virginia,1803077
+LA,state,2020-03-22,Shelter in Place,start,Louisiana,4682509
+LA,state,2020-05-01,Mask Wearing,start,Louisiana,4682509
+LA,state,2020-03-22,Outdoor and Recreation,start,Louisiana,4682509
+LA,state,2020-03-22,Food and Drink,start,Louisiana,4682509
+LA,state,2020-05-15,Non-Essential Businesses,start,Louisiana,4682509
+LA,state,2020-07-13,Mask Wearing,start,Louisiana,4682509
+AR,state,2020-05-11,Mask Wearing,start,Arkansas,3020327
+AR,state,2020-05-18,Outdoor and Recreation,start,Arkansas,3020327
+AR,state,2020-07-20,Mask Wearing,start,Arkansas,3020327
+AR,state,2020-05-11,Food and Drink,start,Arkansas,3020327
+AR,state,2020-07-20,Mask Wearing,start,Arkansas,3020327
+AR,state,2020-05-04,Non-Essential Businesses,start,Arkansas,3020327
+ID,state,2020-06-13,Mask Wearing,start,Idaho,1753860
+ID,state,2020-05-01,Non-Essential Businesses,start,Idaho,1753860
+ID,state,2020-03-25,Shelter in Place,start,Idaho,1753860
+ID,state,2020-05-01,Food and Drink,start,Idaho,1753860
+ID,state,2020-05-01,Outdoor and Recreation,start,Idaho,1753860
+MI,state,2020-05-14,Food and Drink,start,Michigan,9991177
+MI,state,2020-05-14,Non-Essential Businesses,start,Michigan,9991177
+MI,state,2020-03-24,Shelter in Place,start,Michigan,9991177
+MI,state,2020-04-27,Mask Wearing,start,Michigan,9991177
+MI,state,2020-07-10,Mask Wearing,start,Michigan,9991177
+MI,state,2020-04-26,Mask Wearing,start,Michigan,9991177
+MI,state,2020-05-14,Outdoor and Recreation,start,Michigan,9991177
+MA,state,2020-05-06,Mask Wearing,start,Massachusetts,6895917
+MA,state,2020-06-01,Food and Drink,start,Massachusetts,6895917
+MA,state,2020-05-06,Mask Wearing,start,Massachusetts,6895917
+MA,state,2020-05-25,Outdoor and Recreation,start,Massachusetts,6895917
+MA,state,2020-05-06,Mask Wearing,start,Massachusetts,6895917
+MA,state,2020-05-25,Non-Essential Businesses,start,Massachusetts,6895917
+MA,state,2020-03-24,Shelter in Place,start,Massachusetts,6895917
+CO,state,2020-04-23,Mask Wearing,start,Colorado,5684203
+CO,state,2020-03-26,Non-Essential Businesses,start,Colorado,5684203
+CO,state,2020-03-26,Shelter in Place,start,Colorado,5684203
+CO,state,2020-06-05,Outdoor and Recreation,start,Colorado,5684203
+CO,state,2020-07-16,Mask Wearing,start,Colorado,5684203
+CO,state,2020-07-16,Mask Wearing,start,Colorado,5684203
+CO,state,2020-03-20,Food and Drink,start,Colorado,5684203
+AK,state,2020-03-28,Shelter in Place,start,Alaska,738068
+AK,state,2020-04-24,Mask Wearing,start,Alaska,738068
+AK,state,2020-05-08,Outdoor and Recreation,start,Alaska,738068
+AK,state,2020-05-08,Non-Essential Businesses,start,Alaska,738068
+AK,state,2020-04-24,Mask Wearing,start,Alaska,738068
+AK,state,2020-05-08,Food and Drink,start,Alaska,738068
+OH,state,2020-05-01,Non-Essential Businesses,start,Ohio,11694664
+OH,state,2020-07-23,Mask Wearing,start,Ohio,11694664
+OH,state,2020-07-23,Mask Wearing,start,Ohio,11694664
+OH,state,2020-05-01,Food and Drink,start,Ohio,11694664
+OH,state,2020-05-01,Outdoor and Recreation,start,Ohio,11694664
+OH,state,2020-04-29,Mask Wearing,start,Ohio,11694664
+OH,state,2020-03-23,Shelter in Place,start,Ohio,11694664
+WY,state,2020-05-15,Food and Drink,start,Wyoming,573720
+WY,state,2020-05-01,Mask Wearing,start,Wyoming,573720
+WY,state,2020-05-15,Outdoor and Recreation,start,Wyoming,573720
+WY,state,2020-05-15,Non-Essential Businesses,start,Wyoming,573720
+CA,state,2020-06-18,Mask Wearing,start,California,39776830
+CA,state,2020-03-19,Non-Essential Businesses,start,California,39776830
+CA,state,2020-03-19,Shelter in Place,start,California,39776830
+CA,state,2020-05-08,Outdoor and Recreation,start,California,39776830
+CA,state,2020-06-18,Mask Wearing,start,California,39776830
+CA,state,2020-05-05,Mask Wearing,start,California,39776830
+CA,state,2020-05-08,Food and Drink,start,California,39776830
+NE,state,2020-06-22,Outdoor and Recreation,start,Nebraska,1932549
+NE,state,2020-06-22,Non-Essential Businesses,start,Nebraska,1932549
+NE,state,2020-04-10,Shelter in Place,start,Nebraska,1932549
+NE,state,2020-11-11,Mask Wearing,start,Nebraska,1932549
+NE,state,2020-05-04,Mask Wearing,start,Nebraska,1932549
+NE,state,2020-05-04,Food and Drink,start,Nebraska,1932549
+OR,state,2020-05-15,Non-Essential Businesses,start,Oregon,4199563
+OR,state,2020-05-15,Food and Drink,start,Oregon,4199563
+OR,state,2020-05-15,Outdoor and Recreation,start,Oregon,4199563
+OR,state,2020-05-15,Food and Drink,start,Oregon,4199563
+OR,state,2020-07-01,Mask Wearing,start,Oregon,4199563
+OR,state,2020-03-23,Shelter in Place,start,Oregon,4199563
+OR,state,2020-05-09,Mask Wearing,start,Oregon,4199563
+OR,state,2020-07-15,Mask Wearing,start,Oregon,4199563
+IA,state,2020-04-02,Shelter in Place,start,Iowa,3160553
+IA,state,2020-05-15,Outdoor and Recreation,start,Iowa,3160553
+IA,state,2020-05-15,Non-Essential Businesses,start,Iowa,3160553
+IA,state,2020-05-15,Food and Drink,start,Iowa,3160553
+KY,state,2020-06-22,Food and Drink,start,Kentucky,4472265
+KY,state,2020-06-01,Outdoor and Recreation,start,Kentucky,4472265
+KY,state,2020-07-10,Mask Wearing,start,Kentucky,4472265
+KY,state,2020-05-11,Mask Wearing,start,Kentucky,4472265
+KY,state,2020-07-10,Mask Wearing,start,Kentucky,4472265
+KY,state,2020-03-26,Shelter in Place,start,Kentucky,4472265
+KY,state,2020-05-20,Non-Essential Businesses,start,Kentucky,4472265
+KY,state,2020-05-11,Mask Wearing,start,Kentucky,4472265
+MT,state,2020-04-27,Outdoor and Recreation,start,Montana,1062330
+MT,state,2020-03-28,Shelter in Place,start,Montana,1062330
+MT,state,2020-07-15,Mask Wearing,start,Montana,1062330
+MT,state,2020-07-15,Mask Wearing,start,Montana,1062330
+MT,state,2020-05-04,Food and Drink,start,Montana,1062330
+MT,state,2020-04-27,Non-Essential Businesses,start,Montana,1062330
+MS,state,2020-04-01,Shelter in Place,start,Mississippi,2982785
+MS,state,2020-08-05,Mask Wearing,start,Mississippi,2982785
+MS,state,2020-04-01,Food and Drink,start,Mississippi,2982785
+MS,state,2020-05-07,Mask Wearing,start,Mississippi,2982785
+MS,state,2020-08-05,Mask Wearing,start,Mississippi,2982785
+MS,state,2020-04-01,Outdoor and Recreation,start,Mississippi,2982785
+MS,state,2020-04-01,Non-Essential Businesses,start,Mississippi,2982785
+MN,state,2020-03-27,Mask Wearing,start,Minnesota,5628162
+MN,state,2020-03-26,Food and Drink,start,Minnesota,5628162
+MN,state,2020-06-01,Mask Wearing,start,Minnesota,5628162
+MN,state,2020-03-27,Shelter in Place,start,Minnesota,5628162
+MN,state,2020-03-26,Outdoor and Recreation,start,Minnesota,5628162
+MN,state,2020-03-26,Non-Essential Businesses,start,Minnesota,5628162
+MN,state,2020-07-24,Mask Wearing,start,Minnesota,5628162
+NM,state,2020-05-06,Mask Wearing,start,New Mexico,2090708
+NM,state,2020-07-13,Mask Wearing,start,New Mexico,2090708
+NM,state,2020-05-15,Mask Wearing,start,New Mexico,2090708
+NM,state,2020-04-30,Non-Essential Businesses,start,New Mexico,2090708
+NM,state,2020-04-30,Outdoor and Recreation,start,New Mexico,2090708
+NM,state,2020-04-30,Shelter in Place,start,New Mexico,2090708
+NM,state,2020-04-30,Food and Drink,start,New Mexico,2090708
+SC,state,2020-05-04,Outdoor and Recreation,start,South Carolina,5088916
+SC,state,2020-04-07,Shelter in Place,start,South Carolina,5088916
+SC,state,2020-08-03,Mask Wearing,start,South Carolina,5088916
+SC,state,2020-04-01,Non-Essential Businesses,start,South Carolina,5088916
+SC,state,2020-08-02,Mask Wearing,start,South Carolina,5088916
+SC,state,2020-05-04,Food and Drink,start,South Carolina,5088916
+FL,state,2020-04-03,Shelter in Place,start,Florida,21312211
+FL,state,2020-05-04,Food and Drink,start,Florida,21312211
+FL,state,2020-05-04,Non-Essential Businesses,start,Florida,21312211
+FL,state,2020-05-11,Mask Wearing,start,Florida,21312211
+OK,state,2020-03-24,Shelter in Place,start,Oklahoma,3940521
+OK,state,2020-04-01,Non-Essential Businesses,start,Oklahoma,3940521
+OK,state,2020-05-15,Food and Drink,start,Oklahoma,3940521
+MD,state,2020-09-21,Outdoor and Recreation,start,Maryland,6079602
+MD,state,2020-03-30,Shelter in Place,start,Maryland,6079602
+MD,state,2020-04-18,Mask Wearing,start,Maryland,6079602
+MD,state,2020-04-18,Mask Wearing,start,Maryland,6079602
+MD,state,2020-06-10,Food and Drink,start,Maryland,6079602
+MD,state,2020-06-10,Non-Essential Businesses,start,Maryland,6079602
+MD,state,2020-06-10,Non-Essential Businesses,start,Maryland,6079602
+UT,state,2020-03-27,Shelter in Place,start,Utah,3159345
+UT,state,2020-04-10,Mask Wearing,start,Utah,3159345
+UT,state,2020-07-10,Mask Wearing,start,Utah,3159345
+UT,state,2020-05-27,Food and Drink,start,Utah,3159345
+UT,state,2020-04-10,Mask Wearing,start,Utah,3159345
+UT,state,2020-05-27,Non-Essential Businesses,start,Utah,3159345
+UT,state,2020-05-27,Outdoor and Recreation,start,Utah,3159345
+NY,state,2020-06-16,Food and Drink,start,New York,19862512
+NY,state,2020-06-16,Non-Essential Businesses,start,New York,19862512
+NY,state,2020-04-15,Mask Wearing,start,New York,19862512
+NY,state,2020-06-30,Outdoor and Recreation,start,New York,19862512
+NY,state,2020-04-17,Mask Wearing,start,New York,19862512
+NY,state,2020-04-17,Mask Wearing,start,New York,19862512
+NY,state,2020-03-22,Shelter in Place,start,New York,19862512
+DE,state,2020-03-24,Shelter in Place,start,Delaware,971180
+DE,state,2020-04-28,Mask Wearing,start,Delaware,971180
+DE,state,2020-05-01,Mask Wearing,start,Delaware,971180
+DE,state,2020-05-22,Outdoor and Recreation,start,Delaware,971180
+DE,state,2020-05-15,Food and Drink,start,Delaware,971180
+DE,state,2020-06-15,Non-Essential Businesses,start,Delaware,971180
+ME,state,2020-05-01,Mask Wearing,start,Maine,1341582
+ME,state,2020-05-01,Non-Essential Businesses,start,Maine,1341582
+ME,state,2020-04-02,Shelter in Place,start,Maine,1341582
+ME,state,2020-05-01,Outdoor and Recreation,start,Maine,1341582
+ME,state,2020-05-01,Mask Wearing,start,Maine,1341582
+ME,state,2020-08-01,Mask Wearing,start,Maine,1341582
+ME,state,2020-06-01,Food and Drink,start,Maine,1341582
+NV,state,2020-05-09,Mask Wearing,start,Nevada,3056824
+NV,state,2020-05-09,Non-Essential Businesses,start,Nevada,3056824
+NV,state,2020-06-26,Mask Wearing,start,Nevada,3056824
+NV,state,2020-05-09,Outdoor and Recreation,start,Nevada,3056824
+NV,state,2020-04-01,Shelter in Place,start,Nevada,3056824
+NV,state,2020-05-09,Food and Drink,start,Nevada,3056824
+CT,state,2020-03-23,Outdoor and Recreation,start,Connecticut,3588683
+CT,state,2020-04-03,Mask Wearing,start,Connecticut,3588683
+CT,state,2020-03-23,Non-Essential Businesses,start,Connecticut,3588683
+CT,state,2020-03-23,Food and Drink,start,Connecticut,3588683
+CT,state,2020-03-23,Shelter in Place,start,Connecticut,3588683
+CT,state,2020-08-14,Mask Wearing,start,Connecticut,3588683
+CT,state,2020-04-20,Mask Wearing,start,Connecticut,3588683
+TX,state,2020-07-03,Mask Wearing,start,Texas,28704330
+TX,state,2020-05-01,Non-Essential Businesses,start,Texas,28704330
+TX,state,2020-03-31,Shelter in Place,start,Texas,28704330
+TX,state,2020-05-01,Food and Drink,start,Texas,28704330
+TX,state,2020-07-03,Mask Wearing,start,Texas,28704330
+TX,state,2020-05-08,Mask Wearing,start,Texas,28704330
+TX,state,2020-05-01,Outdoor and Recreation,start,Texas,28704330
+PA,state,2020-07-01,Mask Wearing,start,Pennsylvania,12823989
+PA,state,2020-06-10,Outdoor and Recreation,start,Pennsylvania,12823989
+PA,state,2020-07-16,Food and Drink,start,Pennsylvania,12823989
+PA,state,2020-04-19,Mask Wearing,start,Pennsylvania,12823989
+PA,state,2020-03-28,Shelter in Place,start,Pennsylvania,12823989
+PA,state,2020-06-13,Non-Essential Businesses,start,Pennsylvania,12823989
+GA,state,2020-04-27,Mask Wearing,start,Georgia,10545138
+GA,state,2020-08-16,Mask Wearing,start,Georgia,10545138
+GA,state,2020-04-23,Food and Drink,start,Georgia,10545138
+GA,state,2020-04-23,Non-Essential Businesses,start,Georgia,10545138
+GA,state,2020-04-23,Outdoor and Recreation,start,Georgia,10545138
+GA,state,2020-06-16,Shelter in Place,start,Georgia,10545138
+KS,state,2020-03-30,Shelter in Place,start,Kansas,2918515
+KS,state,2020-07-03,Mask Wearing,start,Kansas,2918515
+KS,state,2020-07-03,Mask Wearing,start,Kansas,2918515
+KS,state,2020-07-03,Mask Wearing,start,Kansas,2918515
+KS,state,2020-05-04,Food and Drink,start,Kansas,2918515
+KS,state,2020-05-04,Non-Essential Businesses,start,Kansas,2918515
+KS,state,2020-05-04,Outdoor and Recreation,start,Kansas,2918515
+IL,state,2020-05-01,Mask Wearing,start,Illinois,12768320
+IL,state,2020-05-01,Mask Wearing,start,Illinois,12768320
+IL,state,2020-05-01,Non-Essential Businesses,start,Illinois,12768320
+IL,state,2020-03-21,Shelter in Place,start,Illinois,12768320
+IL,state,2020-03-21,Food and Drink,start,Illinois,12768320
+IL,state,2020-03-21,Outdoor and Recreation,start,Illinois,12768320
+ND,state,2020-05-01,Food and Drink,start,North Dakota,755238
+ND,state,2020-04-28,Mask Wearing,start,North Dakota,755238
+ND,state,2020-03-20,Non-Essential Businesses,start,North Dakota,755238
+WA,state,2020-05-05,Food and Drink,start,Washington,7530552
+WA,state,2020-03-23,Shelter in Place,start,Washington,7530552
+WA,state,2020-05-05,Non-Essential Businesses,start,Washington,7530552
+WA,state,2020-06-26,Mask Wearing,start,Washington,7530552
+WA,state,2020-05-05,Outdoor and Recreation,start,Washington,7530552
+WA,state,2020-05-04,Mask Wearing,start,Washington,7530552
+HI,state,2020-05-18,Outdoor and Recreation,start,Hawaii,1426393
+HI,state,2020-05-18,Non-Essential Businesses,start,Hawaii,1426393
+HI,state,2020-03-25,Shelter in Place,start,Hawaii,1426393
+HI,state,2020-05-07,Food and Drink,start,Hawaii,1426393
+HI,state,1899-12-30,Mask Wearing,start,Hawaii,1426393
+HI,state,2020-06-10,Mask Wearing,start,Hawaii,1426393
+RI,state,2020-05-09,Food and Drink,start,Rhode Island,1061712
+RI,state,2020-04-18,Mask Wearing,start,Rhode Island,1061712
+RI,state,2020-05-09,Non-Essential Businesses,start,Rhode Island,1061712
+RI,state,2020-04-18,Mask Wearing,start,Rhode Island,1061712
+RI,state,2020-08-03,Mask Wearing,start,Rhode Island,1061712
+RI,state,2020-05-09,Outdoor and Recreation,start,Rhode Island,1061712
+RI,state,2020-03-28,Shelter in Place,start,Rhode Island,1061712
+AZ,state,2020-06-17,Mask Wearing,start,Arizona,7123898
+AZ,state,2020-05-08,Mask Wearing,start,Arizona,7123898
+AZ,state,2020-03-31,Outdoor and Recreation,start,Arizona,7123898
+AZ,state,2020-03-31,Non-Essential Businesses,start,Arizona,7123898
+AZ,state,2020-03-31,Food and Drink,start,Arizona,7123898
+AZ,state,2020-03-31,Shelter in Place,start,Arizona,7123898
+WI,state,2020-08-01,Mask Wearing,start,Wisconsin,5818049
+WI,state,2020-03-25,Shelter in Place,start,Wisconsin,5818049
+WI,state,2020-05-11,Food and Drink,start,Wisconsin,5818049
+WI,state,2020-08-01,Mask Wearing,start,Wisconsin,5818049
+WI,state,2020-05-11,Outdoor and Recreation,start,Wisconsin,5818049
+WI,state,2020-05-11,Non-Essential Businesses,start,Wisconsin,5818049
+WI,state,2020-08-01,Mask Wearing,start,Wisconsin,5818049
+TN,state,2020-05-22,Non-Essential Businesses,start,Tennessee,6782564
+TN,state,2020-04-27,Food and Drink,start,Tennessee,6782564
+TN,state,2020-04-02,Shelter in Place,start,Tennessee,6782564
+TN,state,2020-04-27,Outdoor and Recreation,start,Tennessee,6782564
+TN,state,2020-07-03,Mask Wearing,start,Tennessee,6782564
+NC,state,2020-05-08,Food and Drink,start,North Carolina,10390149
+NC,state,2020-06-26,Mask Wearing,start,North Carolina,10390149
+NC,state,2020-05-08,Non-Essential Businesses,start,North Carolina,10390149
+NC,state,2020-05-08,Outdoor and Recreation,start,North Carolina,10390149
+NC,state,2020-06-26,Mask Wearing,start,North Carolina,10390149
+NC,state,2020-06-26,Mask Wearing,start,North Carolina,10390149
+NC,state,2020-03-30,Shelter in Place,start,North Carolina,10390149
+VT,state,2020-04-20,Non-Essential Businesses,start,Vermont,623960
+VT,state,2020-05-07,Outdoor and Recreation,start,Vermont,623960
+VT,state,2020-08-01,Mask Wearing,start,Vermont,623960
+VT,state,2020-03-25,Shelter in Place,start,Vermont,623960
+VT,state,2020-08-01,Mask Wearing,start,Vermont,623960
+VT,state,2020-05-01,Food and Drink,start,Vermont,623960
+VT,state,2020-04-17,Mask Wearing,start,Vermont,623960
+NH,state,2020-03-27,Shelter in Place,start,New Hampshire,1350575
+NH,state,2020-08-11,Mask Wearing,start,New Hampshire,1350575
+NH,state,2020-05-11,Non-Essential Businesses,start,New Hampshire,1350575
+NH,state,2020-05-04,Outdoor and Recreation,start,New Hampshire,1350575
+NH,state,2020-05-18,Food and Drink,start,New Hampshire,1350575
+NH,state,2020-05-01,Mask Wearing,start,New Hampshire,1350575

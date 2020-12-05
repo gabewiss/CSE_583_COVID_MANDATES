@@ -2,11 +2,11 @@
 
 from distutils.core import setup
 
-setup(name='Distutils',
+setup(name='covid',
       version='1.0',
-      description='Python Distribution Utilities',
-      author='Greg Ward',
-      author_email='gward@python.net',
-      url='https://www.python.org/sigs/distutils-sig/',
-      packages=['pandas', 'distutils.command'],
+      description='COVID mandate integrator',
+      author='Jee Hoon Han, Oliver Li, Zhaowen Guo, Gabriel Wisswaesser',
+      author_email='',
+      url='https://github.com/gabewiss/covid',
+      packages=['pandas', 'plotly'],
      )

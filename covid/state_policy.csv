@@ -1,0 +1,128 @@
+﻿state_id,county,fips_code,policy_level,date,policy_type,start_stop,source,total_phases
+CO,Archuleta,8007,county,9/25/20,Mask Requirement,start,sip_submission_form: https://sjbpublichealth.org/wp-content/uploads/2020/10/20-35-Safer-at-Home-Dial.SecondAmended.100820.pdf,4
+CO,Chaffee,8015,county,10/6/20,Mask Requirement,start,sip_submission_form: https://drive.google.com/file/d/1fg7I09QcbnsO2AtUP-QQ-MUQc6zWKYlg/view,4
+CO,Denver,8031,county,7/21/20,Mask Requirement,start,sip_submission_form: https://www.denvergov.org/content/denvergov/en/covid-19/coronavirus-news/july-2020/denver-issues-revised-face-covering-order.html,
+CO,La Plata,8067,county,9/25/20,Mask Requirement,start,sip_submission_form: https://sjbpublichealth.org/wp-content/uploads/2020/10/20-35-Safer-at-Home-Dial.SecondAmended.100820.pdf,4
+FL,Miami-Dade,12086,county,7/9/20,Mask Requirement,start,sip_submission_form: https://www.miamidade.gov/information/library/07.07.20-amendment-2-to-26-20.pdf,
+HI,Honolulu,15003,county,9/24/20,Mask Requirement,start,sip_submission_form: https://governor.hawaii.gov/wp-content/uploads/2020/09/EO-2020-27-w-Ex-A_FINAL.pdf,4
+ID,Ada,16001,county,6/24/20,Mask Requirement,start,sip_submission_form: https://www.cdhd.idaho.gov/dac-coronavirus-order.php,4
+ID,Adams,16003,county,6/13/20,Mask Requirement,start,sip_submission_form: https://rebound.idaho.gov/stage-4-stay-healthy-guidelines/,4
+ID,Bear Lake,16007,county,6/13/20,Mask Requirement,start,sip_submission_form: https://rebound.idaho.gov/stage-4-stay-healthy-guidelines/,4
+ID,Bingham,16011,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Boise,16015,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Bonneville,16019,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Butte,16023,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Caribou,16029,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Clark,16033,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Custer,16037,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Elmore,16039,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Franklin,16041,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Fremont,16043,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Jefferson,16051,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Lemhi,16059,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Madison,16065,county,10/27/20,Mask Requirement,start,sip_submission_form: https://www.co.madison.id.us/county-government/eiph-madison-county-order-of-restriction,4
+ID,Oneida,16071,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Power,16077,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Teton,16081,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+ID,Twin Falls,16083,county,10/27/20,Mask Requirement,start,sip_submission_form: https://twinfallscounty.org/wp-content/uploads/stay-healthy-order-stage3_2020oct27-1.pdf,4
+ID,Valley,16085,county,10/27/20,Mask Requirement,start,sip_submission_form: https://twinfallscounty.org/wp-content/uploads/stay-healthy-order-stage3_2020oct27-1.pdf,4
+ID,Washington,16087,county,10/27/20,Mask Requirement,start,sip_submission_form: https://coronavirus.idaho.gov/wp-content/uploads/2020/10/stay-healthy-order-stage3_2020oct27.pdf,4
+KS,Wyandotte,20209,county,6/30/20,Mask Requirement,start,sip_submission_form: https://www.wycokck.org/WycoKCK/media/Health-Department/Documents/Communicable%20Disease/COVID19/06272020PressReleaseLHORequiresPublicToWearMasks.pdf,
+ME,Cumberland,23005,county,7/8/20,Mask Requirement,start,sip_submission_form: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/An%20Order%20Strengthening%20the%20Use%20of%20Face%20Coverings.pdf,
+ME,Hancock,23009,county,7/8/20,Mask Requirement,start,sip_submission_form: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/An%20Order%20Strengthening%20the%20Use%20of%20Face%20Coverings.pdf,
+ME,Knox,23013,county,7/8/20,Mask Requirement,start,sip_submission_form: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/An%20Order%20Strengthening%20the%20Use%20of%20Face%20Coverings.pdf,
+ME,Lincoln,23015,county,7/8/20,Mask Requirement,start,sip_submission_form: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/An%20Order%20Strengthening%20the%20Use%20of%20Face%20Coverings.pdf,
+ME,Sagadahoc,23023,county,7/8/20,Mask Requirement,start,sip_submission_form: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/An%20Order%20Strengthening%20the%20Use%20of%20Face%20Coverings.pdf,
+ME,Waldo,23027,county,7/8/20,Mask Requirement,start,sip_submission_form: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/An%20Order%20Strengthening%20the%20Use%20of%20Face%20Coverings.pdf,
+ME,York,23031,county,7/8/20,Mask Requirement,start,sip_submission_form: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/An%20Order%20Strengthening%20the%20Use%20of%20Face%20Coverings.pdf,
+MO,Jackson,29095,county,10/9/20,Mask Requirement,start,sip_submission_form: https://www.jacksongov.org/DocumentCenter/View/7132/Health-Order_10-2-2020,
+NE,Lancaster,31109,county,9/14/20,Mask Requirement,start,sip_submission_form: https://lincoln.ne.gov/city/covid19/pdf/directed-health-measures-2020-09.pdf,4
+OH,Allen,39003,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Athens,39009,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Butler,39017,county,7/8/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Directors-Order-Facial-Coverings.pdf,
+OH,Clermont,39025,county,7/10/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Addendum-Facial-Coverings.pdf,
+OH,Cuyahoga,39035,county,7/8/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Directors-Order-Facial-Coverings.pdf,
+OH,Delaware,39041,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Fairfield,39045,county,7/10/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Addendum-Facial-Coverings.pdf,
+OH,Franklin,39049,county,7/8/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Directors-Order-Facial-Coverings.pdf,
+OH,Hamilton,39061,county,7/8/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Directors-Order-Facial-Coverings.pdf,
+OH,Huron,39077,county,7/8/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Directors-Order-Facial-Coverings.pdf,
+OH,Licking,39089,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Lorain,39093,county,7/10/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Addendum-Facial-Coverings.pdf,
+OH,Lucas,39095,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Montgomery,39113,county,7/16/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Pickaway,39129,county,7/10/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Addendum-Facial-Coverings.pdf,
+OH,Richland,39139,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Scioto,39145,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Summit,39153,county,7/10/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Addendum-Facial-Coverings.pdf,
+OH,Trumbull,39155,county,7/8/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Directors-Order-Facial-Coverings.pdf,
+OH,Union,39159,county,7/17/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/19-red-alert-level-three-counties,
+OH,Wood,39173,county,7/10/20,Mask Requirement,start,sip_submission_form: https://coronavirus.ohio.gov/static/publicorders/Addendum-Facial-Coverings.pdf,
+TX,Archer,48009,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Armstrong,48011,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Bailey,48017,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Baylor,48023,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Borden,48033,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Briscoe,48045,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Carson,48065,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Childress,48075,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Clay,48077,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Cochran,48079,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Coke,48081,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Coleman,48083,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Collingsworth,48087,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Concho,48095,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Cottle,48101,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Crosby,48107,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Delta,48119,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Dickens,48125,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Eastland,48133,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Edwards,48137,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Fisher,48151,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Foard,48155,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Franklin,48159,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Glasscock,48173,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Goliad,48175,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Gray,48179,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Hansford,48195,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Hardeman,48197,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Haskell,48207,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Hudspeth,48229,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Hutchinson,48233,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Irion,48235,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Jack,48237,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Kent,48263,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,King,48269,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Kinney,48271,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Knox,48275,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Lipscomb,48295,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Lynn,48305,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,McCulloch,48307,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Martin,48317,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Mason,48319,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Mills,48333,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Montague,48337,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Morris,48343,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Motley,48345,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Ochiltree,48357,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Oldham,48359,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Pecos,48371,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Rains,48379,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Real,48385,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Red River,48387,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Roberts,48393,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Runnels,48399,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Schleicher,48413,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Shackelford,48417,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Sherman,48421,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Sterling,48431,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Sutton,48435,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Terrell,48443,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Throckmorton,48447,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Upton,48461,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Wheeler,48483,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Wilbarger,48487,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+TX,Yoakum,48501,county,7/3/20,Mask Requirement,start,"sip_submission_form: https://tdem.texas.gov/ga29/, and ",
+UT,Cache,49005,county,8/1/20,Mask Requirement,start,sip_submission_form: https://coronavirus.utah.gov/utahs-health-guidance-system/#map,
+UT,Washington,49053,county,11/1/20,Mask Requirement,start,sip_submission_form: https://www.abc4.com/news/mask-mandates-enforced-as-youth-sports-large-scale-tournaments-held-in-southern-utah/?utm_source=newsfore&utm_medium=email&utm_campaign=News&tqid=0v7hPWEpHUcBzlVglbim_OFhKUEEGr5ofnxYwFiUFA,
+WI,Dane,55025,county,7/13/20,Mask Requirement,start,sip_submission_form: https://publichealthmdc.com/documents/2020-07-07_Order_8.pdf,4
