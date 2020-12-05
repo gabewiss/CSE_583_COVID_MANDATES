@@ -1,6 +1,6 @@
 """This unittest checks if the function 'covid' function works
 UnitTests(unittest.TestCase) -- framework for functions testing
-                                knn_regression(). Exports 'OK', 'FAIL',
+                                Exports 'OK', 'FAIL',
                                 or 'ERROR'
 def test_smoke(self) -- does function run-through w/o problems
 """
