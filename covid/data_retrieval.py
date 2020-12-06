@@ -17,7 +17,7 @@ def data_retrieval():
 
     """importing newest data from nytimes repo and healthdata.gov"""
     states = read_csv('https://raw.githubusercontent'  # noqa: F841
-                         '.com/nytimes/covid-19-data/master/us-states.csv')
+                      '.com/nytimes/covid-19-data/master/us-states.csv')
     mandates = read_csv('https://healthdata.gov'  # noqa: F841
-                           '/sites/default/files/'
-                           'state_policy_updates_20201202_0721.csv')
+                        '/sites/default/files/'
+                        'state_policy_updates_20201202_0721.csv')
