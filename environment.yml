@@ -10,7 +10,7 @@ dependencies:
   - intel-openmp=2019.4
   - libedit=3.1.20191231
   - libffi=3.3
-  - mccabe=0.6.1
+  - mccabe=0.6.0
   - mkl=2019.4
   - mkl-service=2.3.0
   - mkl_fft=1.2.0
