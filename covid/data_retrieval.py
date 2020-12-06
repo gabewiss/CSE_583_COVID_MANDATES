@@ -8,7 +8,7 @@ Args: no arguments
 
 """
 
-import pandas as pd
+from pandas import read_csv
 
 
 def data_retrieval():
