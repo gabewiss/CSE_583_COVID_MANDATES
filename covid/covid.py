@@ -15,6 +15,17 @@ import pandas as pd
 # import plotly.express as px
 # import plotly.graph_objects as go
 
+
+# def covid(not_important):
+#     """
+#     Function to get tavisci.yml working. Not working yet. Not working yet.
+#     how about now. 4th attempt?
+#     """
+
+#     not_important1 = not_important
+#     return not_important1
+
+
 state_count = pd.read_csv("data/state_case.csv")
 state_mandate = pd.read_csv("data/state_mandate.csv")
 
@@ -76,13 +87,3 @@ def mandate_processing(mandate_df):
 
 state_count_monthly = case_count_processing(state_count)
 state_mandate = mandate_processing(state_mandate)
-
-
-def covid(not_important):
-    """
-    Function to get tavisci.yml working. Not working yet. Not working yet.
-    how about now. 4th attempt?
-    """
-
-    not_important1 = not_important
-    return not_important1
