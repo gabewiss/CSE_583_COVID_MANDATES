@@ -28,7 +28,7 @@ import pandas as pd
 
 state_count = pd.read_csv("data/state_case.csv", index_col=False)
 state_mandate = pd.read_csv("data/state_mandate.csv", index_col=False)
-state_population = pd.read_csv("data/state_population.csv", index_col=False)
+states_population = pd.read_csv("data/states_population.csv", index_col=False)
 
 
 def case_count_processing(case_count_df):
@@ -42,7 +42,8 @@ def case_count_processing(case_count_df):
     case_count_monthly -- Return the selected fields, change the date column
     datatype to match the mandate dataset, add month column, and group the
     dataframe on state and month. The result dataframe has the monthly
-    case count and death count for each state
+    case count and death count for each state per hundred thousand of state
+    population size
     '''
     if 'state' not in case_count_df.keys():
         raise IOError("The input dataframe is not from the same source")
@@ -54,6 +55,9 @@ def case_count_processing(case_count_df):
         raise IOError("The input dataframe is not from the same source")
     case_count_df = case_count_df[['state', 'submission_date', 'new_case',
                                    'new_death']]
+    case_count_df = pd.merge(case_count_df, states_population)
+    case_count_df['new_case'] = case_count_df['new_case']/case_count_df['population']*100000
+    case_count_df['new_death'] = case_count_df['new_death']/case_count_df['population']*100000
     case_count_df = case_count_df.rename(columns={'submission_date': 'date'})
     case_count_df['date'] = pd.to_datetime(case_count_df['date'])
     case_count_df['month'] = pd.to_datetime(case_count_df['date']).dt.month
@@ -87,7 +91,7 @@ def mandate_processing(mandate_df):
     & (mandate_columns["policy_level"] == "state")
     & (mandate_columns["policy_type"].isin(policy_mandates))]
 
-    mandate_all = pd.merge(mandate_rows, state_population)
+    mandate_all = pd.merge(mandate_rows, states_population)
     mandate_all.drop(["policy_level"], axis=1)
     mandate_all.loc[mandate_all["policy_type"].str.contains("Mask"), "policy_type"] = "Mask Wearing"
 

@@ -1,0 +1,52 @@
+state,population,state_id
+California,39776830,CA
+Texas,28704330,TX
+Florida,21312211,FL
+New York,19862512,NY
+Pennsylvania,12823989,PA
+Illinois,12768320,IL
+Ohio,11694664,OH
+Georgia,10545138,GA
+North Carolina,10390149,NC
+Michigan,9991177,MI
+New Jersey,9032872,NJ
+Virginia,8525660,VA
+Washington,7530552,WA
+Arizona,7123898,AZ
+Massachusetts,6895917,MA
+Tennessee,6782564,TN
+Indiana,6699629,IN
+Missouri,6135888,MO
+Maryland,6079602,MD
+Wisconsin,5818049,WI
+Colorado,5684203,CO
+Minnesota,5628162,MN
+South Carolina,5088916,SC
+Alabama,4888949,AL
+Louisiana,4682509,LA
+Kentucky,4472265,KY
+Oregon,4199563,OR
+Oklahoma,3940521,OK
+Connecticut,3588683,CT
+Iowa,3160553,IA
+Utah,3159345,UT
+Nevada,3056824,NV
+Arkansas,3020327,AR
+Mississippi,2982785,MS
+Kansas,2918515,KS
+New Mexico,2090708,NM
+Nebraska,1932549,NE
+West Virginia,1803077,WV
+Idaho,1753860,ID
+Hawaii,1426393,HI
+New Hampshire,1350575,NH
+Maine,1341582,ME
+Montana,1062330,MT
+Rhode Island,1061712,RI
+Delaware,971180,DE
+South Dakota,877790,SD
+North Dakota,755238,ND
+Alaska,738068,AK
+District of Columbia,703608,DC
+Vermont,623960,VT
+Wyoming,573720,WY
