@@ -26,8 +26,9 @@ import pandas as pd
 #     return not_important1
 
 
-state_count = pd.read_csv("data/state_case.csv")
-state_mandate = pd.read_csv("data/state_mandate.csv")
+state_count = pd.read_csv("data/state_case.csv", index_col=False)
+state_mandate = pd.read_csv("data/state_mandate.csv", index_col=False)
+state_population = pd.read_csv("data/state_population.csv", index_col=False)
 
 
 def case_count_processing(case_count_df):
@@ -75,6 +76,21 @@ def mandate_processing(mandate_df):
     # Zhaowen could you please add your processing code over here.
     # The below several lines are what I used to process for the data you've
     # already cleaned. Thank you!
+
+    policy_mandates = ["Shelter in Place", "Food and Drink", "Non-Essential Businesses", "Outdoor and Recreation",
+    "Mandate Face Mask Use By All Individuals In Public Facing Businesses",
+    "Mask Requirement", "Mandate Face Mask Use By All Individuals In Public Spaces"]
+
+    mandate_columns = mandate_df[["state_id", "policy_level","date","policy_type","start_stop"]]
+
+    mandate_rows = mandate_columns[(mandate_columns["start_stop"] == "start")
+    & (mandate_columns["policy_level"] == "state")
+    & (mandate_columns["policy_type"].isin(policy_mandates))]
+
+    mandate_all = pd.merge(mandate_rows, state_population)
+    mandate_all.drop(["policy_level"], axis=1)
+    mandate_all.loc[mandate_all["policy_type"].str.contains("Mask"), "policy_type"] = "Mask Wearing"
+
     if 'state' not in mandate_df.keys():
         raise IOError("The input dataframe is not from the same source")
     if 'state_id' not in mandate_df.keys():
@@ -82,7 +98,7 @@ def mandate_processing(mandate_df):
     mandate_df = mandate_df.rename(columns={'state': 'state_fullname',
                                             'state_id': 'state'})
     mandate_df.drop_duplicates(inplace=True)
-    return mandate_df
+    return mandate_all
 
 
 state_count_monthly = case_count_processing(state_count)
