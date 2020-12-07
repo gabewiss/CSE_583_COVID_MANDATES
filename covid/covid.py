@@ -19,6 +19,17 @@ state_count = pd.read_csv("data/state_case.csv")
 state_mandate = pd.read_csv("data/state_mandate.csv")
 
 def case_count_processing(case_count_df):
+	'''
+	Function used to process the case count dataset downloaded from github site.
+
+	Argument:
+	case_count_df -- The original dataset
+
+	Return:
+	case_count_monthly -- Return the selected fields, change the date column datatype
+	to match the mandate dataset, add month column, and group the dataframe on state and
+	month. The result dataframe has the monthly case count and death count for each state
+	'''
 	if 'state' not in case_count_df.keys():
 		raise IOError("The input dataframe is not from the same source")
 	if 'submission_date' not in case_count_df.keys():
