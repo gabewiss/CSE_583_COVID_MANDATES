@@ -38,11 +38,15 @@ def mandate_processing(mandate_df):
 	## Zhaowen could you please add your processing code over here.
 	## The above two lines are what I used to process for the data you've
 	## already cleaned. Thank you!
-	state_mandate = state_mandate.rename(columns = {'state':'state_fullname', 'state_id':'state'})
-	state_mandate.drop_duplicates(inplace=True)
+	if 'state' not in mandate_df.keys():
+		raise IOError("The input dataframe is not from the same source")
+	if 'state_id' not in mandate_df.keys():
+		raise IOError("The input dataframe is not from the same source")
+	mandate_df = mandate_df.rename(columns = {'state':'state_fullname', 'state_id':'state'})
+	mandate_df.drop_duplicates(inplace=True)
 
 state_count_monthly = case_count_processing(state_count)
-
+state_mandate = mandate_df(state_mandate)
 
 
 def covid(not_important):
