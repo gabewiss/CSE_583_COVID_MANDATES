@@ -6,7 +6,7 @@ def test_smoke(self) -- does function run-through w/o problems
 """
 
 import unittest
-import covid
+from .. import covid
 
 
 class UnitTests(unittest.TestCase):
