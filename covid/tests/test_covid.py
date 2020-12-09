@@ -6,7 +6,7 @@ def test_smoke(self) -- does function run-through w/o problems
 """
 
 import unittest
-import covid
+# import covid
 
 
 class UnitTests(unittest.TestCase):
@@ -20,9 +20,9 @@ class UnitTests(unittest.TestCase):
         Testing the travis
 
         """
-        not_important = 3
+        # not_important = 3
 
-        covid.covid(not_important)
+        # covid.covid(not_important)
 
 
 if __name__ == '__main__':
