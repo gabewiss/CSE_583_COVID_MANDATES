@@ -12,14 +12,14 @@ import pandas as pd
 # import plotly.graph_objects as go
 
 
-# def covid(not_important):
-#     """
-#     Function to get tavisci.yml working. Not working yet. Not working yet.
-#     how about now. 4th attempt?
-#     """
+def covid(not_important):
+    """
+    Function to get tavisci.yml working. Not working yet. Not working yet.
+    how about now. 4th attempt?
+    """
 
-#     not_important1 = not_important
-#     return not_important1
+    not_important1 = not_important
+    return not_important1
 
 
 state_count = pd.read_csv("data/state_case.csv", index_col=False)
