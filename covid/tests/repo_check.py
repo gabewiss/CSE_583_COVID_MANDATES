@@ -1,8 +1,7 @@
 import unittest
 
-import pandas as pd
-
 import data_retrieval
+
 
 class TestDataRetrieval(unittest.TestCase):
     """Test the data_retrieval function"""
@@ -13,7 +12,7 @@ class TestDataRetrieval(unittest.TestCase):
         """
         try:
             data_retrieval()
-        except
+        except IOError:
             return print('Website not found')
 
 
