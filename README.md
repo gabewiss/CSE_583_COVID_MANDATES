@@ -6,7 +6,12 @@ Project for CSE 583: COVID, Mandates, etc.
 
 ### Introduction
 
-(placeholder)covid counts and mandates
+To see how effective the Covid-19 related mandates are in the United States.
+
+Includes
+1. A choropleth of USA to see the overview of monthly positive Covid19 counts of each state.
+
+2. Line graphs of states with markers of mandates.
 
 ### Team Members
 
