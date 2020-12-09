@@ -6,7 +6,7 @@ Project for CSE 583: COVID, Mandates, etc.
 
 ### Introduction
 
-Just placeholder covid counts and mandates
+(placeholder)covid counts and mandates
 
 ### Team Members
 
