@@ -5,13 +5,16 @@ import pandas as pd
 import data_retrieval
 
 class TestDataRetrieval(unittest.TestCase):
-    """Test the data retrieval function"""
+    """Test the data_retrieval function"""
 
-    def test_smoke1(self):
+    def test_edge(self):
         """
         Smoke test on data_retrieval
         """
-        self.assertTrue(data_retrieval(True))
+        try:
+            data_retrieval()
+        except
+            return print('Website not found')
 
 
 suite = unittest.TestLoader().loadTestsFromTestCase(TestDataRetrieval)
