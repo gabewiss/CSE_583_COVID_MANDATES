@@ -8,7 +8,7 @@ class TestDataRetrieval(unittest.TestCase):
 
     def test_edge(self):
         """
-        Smoke test on data_retrieval
+        Smoke test on data_retrieval 1
         """
         try:
             data_retrieval()
