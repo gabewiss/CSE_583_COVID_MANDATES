@@ -23,7 +23,7 @@ class UnitTests(unittest.TestCase):
         # pass
         not_important = 3
 
-        covid(not_important)
+        covid.test(not_important)
 
 
 if __name__ == '__main__':
