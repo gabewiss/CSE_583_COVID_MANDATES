@@ -4,7 +4,7 @@ how about now. 4th attempt?
 """
 
 
-def weee(not_important):
+def test(not_important):
     """
     Function to get tavisci.yml working.?
     """

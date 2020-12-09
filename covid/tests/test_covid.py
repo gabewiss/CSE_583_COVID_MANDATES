@@ -25,7 +25,7 @@ class CovidTest(unittest.TestCase):
 
         not_important = 3
 
-        self.assertTrue(covid.weee(not_important),)
+        self.assertTrue(covid.test(not_important),)
 
 
 if __name__ == '__main__':
