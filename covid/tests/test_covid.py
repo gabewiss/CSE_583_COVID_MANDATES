@@ -5,7 +5,9 @@ UnitTests(unittest.TestCase) -- framework for functions testing
 def test_smoke(self) -- does function run-through w/o problems
 """
 
+
 import unittest
+
 import covid
 
 
@@ -20,11 +22,11 @@ class UnitTests(unittest.TestCase):
         Testing the travis
 
         """
-        # pass
+        
         not_important = 3
 
         self.assertEqual(covid.test(not_important), 3)
 
 
-suite = unittest.TestLoader().loadTestsFromTestCase(UnitTests)
-_ = unittest.TextTestRunner().run(suite)
+if __name__ == '__main__':
+    unittest.main()
