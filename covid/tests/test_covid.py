@@ -20,6 +20,7 @@ class UnitTests(unittest.TestCase):
         Testing the travis
 
         """
+        pass
         # not_important = 3
 
         # covid.covid(not_important)
