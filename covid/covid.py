@@ -4,10 +4,9 @@ how about now. 4th attempt?
 """
 
 
-def test(not_important):
+def travis(not_important):
     """
-    Function to get tavisci.yml working. Not working yet. Not working yet.
-    how about now. 4th attempt?
+    Function to get tavisci.yml working.?
     """
 
     not_important1 = not_important

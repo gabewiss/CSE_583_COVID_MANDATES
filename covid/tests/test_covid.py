@@ -11,7 +11,7 @@ import unittest
 import covid
 
 
-class UnitTests(unittest.TestCase):
+class CovidTest(unittest.TestCase):
     """
     Testing the travis
 
@@ -25,7 +25,7 @@ class UnitTests(unittest.TestCase):
 
         not_important = 3
 
-        self.assertEqual(covid.test(not_important), 3)
+        self.assertEqual(covid.travis(not_important), 3)
 
 
 if __name__ == '__main__':
