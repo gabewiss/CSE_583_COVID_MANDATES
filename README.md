@@ -37,7 +37,15 @@ covid/
       |- state_policy_updates_20201202_0721.csv
       |- states_population.csv
     |- examples/
+      |- .ipynb_checkpoints/
+      |- Plotly_practice.ipynb
+      |- app.py
+      |- covid_state.ipynb
+      |- covid_visualization.ipynb
+      |- plotly_dash_practice_JH.ipynb
     |- tests/
+      |- __init__.py
+      |- test_covid.py
     |- __init__.py
     |- covid.py
   |- docs/
