@@ -2,10 +2,6 @@
 Function to get tavisci.yml working. Not working yet. Not working yet.
 how about now. 4th attempt?
 """
-# import datetime
-# import json
-# from urllib.request import urlopen
-
 # import dash
 # import dash_core_components as dcc
 # import dash_html_components as html
@@ -27,6 +23,7 @@ import pandas as pd
 
 
 state_count = pd.read_csv("data/state_case.csv", index_col=False)
+# The file for state_mandate is not correct. Double check with Zhaowen
 state_mandate = pd.read_csv("data/state_mandate.csv", index_col=False)
 states_population = pd.read_csv("data/states_population.csv", index_col=False)
 
@@ -56,8 +53,10 @@ def case_count_processing(case_count_df):
     case_count_df = case_count_df[['state', 'submission_date', 'new_case',
                                    'new_death']]
     case_count_df = pd.merge(case_count_df, states_population)
-    case_count_df['new_case'] = case_count_df['new_case']/case_count_df['population']*100000
-    case_count_df['new_death'] = case_count_df['new_death']/case_count_df['population']*100000
+    case_count_df['new_case'] = case_count_df['new_case'] / \
+        case_count_df['population'] * 100000
+    case_count_df['new_death'] = case_count_df['new_death'] / \
+        case_count_df['population']*100000
     case_count_df = case_count_df.rename(columns={'submission_date': 'date'})
     case_count_df['date'] = pd.to_datetime(case_count_df['date'])
     case_count_df['month'] = pd.to_datetime(case_count_df['date']).dt.month
@@ -81,19 +80,32 @@ def mandate_processing(mandate_df):
     # The below several lines are what I used to process for the data you've
     # already cleaned. Thank you!
 
-    policy_mandates = ["Shelter in Place", "Food and Drink", "Non-Essential Businesses", "Outdoor and Recreation",
-    "Mandate Face Mask Use By All Individuals In Public Facing Businesses",
-    "Mask Requirement", "Mandate Face Mask Use By All Individuals In Public Spaces"]
+    policy_mandates = ["Shelter in Place",
+                       "Food and Drink",
+                       "Non-Essential Businesses",
+                       "Outdoor and Recreation",
+                       "Mandate Face Mask Use By All Individuals In Public"
+                       " Facing Businesses",
+                       "Mask Requirement",
+                       "Mandate Face Mask Use By All Individuals In Public"
+                       " Spaces"]
 
-    mandate_columns = mandate_df[["state_id", "policy_level","date","policy_type","start_stop"]]
+    mandate_columns = mandate_df[["state_id",
+                                  "policy_level",
+                                  "date",
+                                  "policy_type",
+                                  "start_stop"]]
 
     mandate_rows = mandate_columns[(mandate_columns["start_stop"] == "start")
-    & (mandate_columns["policy_level"] == "state")
-    & (mandate_columns["policy_type"].isin(policy_mandates))]
+                                   & (mandate_columns["policy_level"] ==
+                                   "state")
+                                   & (mandate_columns["policy_type"].
+                                   isin(policy_mandates))]
 
     mandate_all = pd.merge(mandate_rows, states_population)
     mandate_all.drop(["policy_level"], axis=1)
-    mandate_all.loc[mandate_all["policy_type"].str.contains("Mask"), "policy_type"] = "Mask Wearing"
+    mandate_all.loc[mandate_all["policy_type"]
+                    .str.contains("Mask"), "policy_type"] = "Mask Wearing"
 
     if 'state' not in mandate_df.keys():
         raise IOError("The input dataframe is not from the same source")
