@@ -22,7 +22,7 @@ class UnitTests(unittest.TestCase):
         Testing the travis
 
         """
-        
+
         not_important = 3
 
         self.assertEqual(covid.test(not_important), 3)
