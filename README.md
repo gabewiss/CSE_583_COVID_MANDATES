@@ -4,9 +4,9 @@ Project for CSE 583: COVID, Mandates, etc.
 [![Coverage Status](https://coveralls.io/repos/github/gabewiss/covid/badge.svg?branch=main)](https://coveralls.io/github/gabewiss/covid?branch=main)
 
 
-### Place holder for introduction
+### Introduction
 
-covid counts and mandates
+(placeholder)covid counts and mandates
 
 ### Team Members
 
