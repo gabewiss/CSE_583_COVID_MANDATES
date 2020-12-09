@@ -77,7 +77,12 @@ covid/
 ```
 
 ### Data Source
+#### Covid-19 Case Counts
+  - Covid-19 data repository held by [New York Times](https://github.com/nytimes/covid-19-data)
 
+#### Covid-19 State and County Policy
+  - State and county orders held by [Health Data.gov](https://healthdata.gov/dataset/covid-19-state-and-county-policy-orders)
+  
 ### History
 
 ### Limitation
