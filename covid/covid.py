@@ -7,7 +7,7 @@ how about now. 4th attempt?
 # import dash_html_components as html
 # from dash.dependencies import Input, Output, State
 # from jupyter_dash import JupyterDash
-import pandas as pd
+# import pandas as pd
 # import plotly.express as px
 # import plotly.graph_objects as go
 
@@ -25,7 +25,8 @@ def covid(not_important):
 # state_count = pd.read_csv("data/state_case.csv", index_col=False)
 # # The file for state_mandate is not correct. Double check with Zhaowen
 # state_mandate = pd.read_csv("data/state_mandate.csv", index_col=False)
-# states_population = pd.read_csv("data/states_population.csv", index_col=False)
+# states_population = pd.read_csv("data/states_population.csv",
+# index_col=False)
 
 
 # def case_count_processing(case_count_df):
