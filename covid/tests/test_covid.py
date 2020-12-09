@@ -23,11 +23,8 @@ class UnitTests(unittest.TestCase):
         # pass
         not_important = 3
 
-        self.assertEqual(covid.test(not_important),3)
+        self.assertEqual(covid.test(not_important), 3)
 
-
-#if __name__ == '__main__':
-#    unittest.main()
 
 suite = unittest.TestLoader().loadTestsFromTestCase(UnitTests)
 _ = unittest.TextTestRunner().run(suite)
