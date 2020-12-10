@@ -19,7 +19,6 @@ dependencies:
   - itsdangerous=1.1.0
   - jinja2=2.11.2
   - libedit=3.1.20191231
-  - libffi=3.3
   - markupsafe=1.1.1
   - mkl=2019.4
   - mkl-service=2.3.0
