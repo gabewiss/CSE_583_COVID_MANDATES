@@ -1,6 +1,10 @@
 """
 This module is used to process the case count dataset everytime
 it is downloaded from the github site
+
+Function --
+count_processing: Process the case count dataset into the format we
+                  we want.
 """
 
 import pandas as pd
