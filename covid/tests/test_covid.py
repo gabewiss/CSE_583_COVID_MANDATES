@@ -8,7 +8,7 @@ def test_smoke(self) -- does function run-through w/o problems
 
 import unittest
 
-import covid
+from src import covid
 
 
 class CovidTest(unittest.TestCase):
@@ -25,7 +25,7 @@ class CovidTest(unittest.TestCase):
 
         not_important = 3
 
-        self.assertTrue(covid.covid.test(not_important),)
+        self.assertTrue(covid.test(not_important),)
 
 
 if __name__ == '__main__':
