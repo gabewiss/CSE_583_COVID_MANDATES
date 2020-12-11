@@ -24,11 +24,13 @@ def repo_check():
                        404: Not Found
 
     Args: none
-    Returns: resp1.code and resp2.code status codes"""
+    Returns: True """
 
     resp1 = request.urlopen('https://raw.githubusercontent.com/nytimes/covid-'
                             '19-data/master/us-states.csv')
     resp2 = request.urlopen('https://healthdata.gov/sites/default/files/'
                             'state_policy_updates_20201202_0721.csv')
-
-    return resp1.code, resp2.code
+    if resp1.code == 200 and resp2.code == 200:
+        return True
+    else:
+        return False
