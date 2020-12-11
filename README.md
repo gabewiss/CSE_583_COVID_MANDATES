@@ -6,10 +6,11 @@ Project for CSE 583: COVID, Mandates, etc.
 
 ### Introduction
 
-To see how effective the Covid-19 related mandates are in the United States.
+This is a softeware that takes the latest Covid-19 case counts data updated by _New York Times_ and shows it with the Covid-19 related Mandates in the United States.
+With this tool, we can see how effective a certain mandate is in terms of increased case counts.
 
 Includes
-1. A choropleth of USA to see the overview of monthly positive Covid19 counts of each state.
+1. A choropleth of USA to see the overview of monthly positive Covid-19 counts of each state.
 
 2. Line graphs of states with markers of mandates.
 
@@ -28,61 +29,60 @@ Includes
 
 
 ### Installation
-With `conda`, install `Dash`, `Pandas`, `Plotly` and `urllib`.    
+Instruction to run the softeware locally   
 
-    conda install dash
-    conda install pandas
-    conda install plotly
-    conda install urllib
+1. Clone the git repo: 'git clone https://github.com/gabewiss/covid.git'
+2. Create the conda environment: 'conda env create -f environment.yml'
+3.
+4.
 
 ### Directory Summary
 
 ### Directory Structure
 ```
 covid/
-  |- covid/
-    |- data/
-      |- ~lock.state_case.csv#
-      |- README.txt
-      |- cleaned_mandates.ipynb
-      |- covid_count_state.csv
-      |- covid_state.csv
-      |- state_case.csv
-      |- state_mandate.csv
-      |- state_policy.csv
-      |- state_policy_updates_20201202_0721.csv
-      |- states_population.csv
-    |- examples/
-      |- .ipynb_checkpoints/
-      |- Plotly_practice.ipynb
-      |- app.py
-      |- covid_state.ipynb
-      |- covid_visualization.ipynb
-      |- plotly_dash_practice_JH.ipynb
-    |- tests/
-      |- __init__.py
-      |- test_covid.py
-    |- __init__.py
-    |- covid.py
-  |- docs/
-    |- articles/
-      |- mandate_face_covering.pdf
-      |- mandate_social_distancing.pdf
-    |- CSE583_ComponentDiagram.pdf
-    |- CSE583_UseCaseDiagram.pdf
-    |- CSE583_technical_review.pdf
-    |- SoftewareDesign.pdf
-  |- .ds_Store
-  |- .coveragerc
-  |- .gitignore
-  |- .travis.yml
-  |- LICENSE
-  |- README.md
-  |- data_check.py
-  |- environment.yml
-  |- repo_chekc.py
-  |- setup.py
-  |- test_repo_check.py
+├── LICENSE
+├── README.md
+├── covid
+│   ├── Untitled\ Folder
+│   ├── __init__.py
+│   ├── data
+│   │   ├── README.txt
+│   │   ├── cleaned_mandates.ipynb
+│   │   ├── covid_count_state.csv
+│   │   ├── covid_state.csv
+│   │   ├── state_case.csv
+│   │   ├── state_mandates.csv
+│   │   ├── state_policy.csv
+│   │   ├── state_policy_updates_20201202_0721.csv
+│   │   └── states_population.csv
+│   ├── environment.yml
+│   ├── examples
+│   │   ├── Plotly_practice.ipynb
+│   │   ├── app.py
+│   │   ├── covid_state.ipynb
+│   │   ├── covid_visualization.ipynb
+│   │   └── plotly_dash_practice_JH.ipynb
+│   ├── src
+│   │   ├── __init__.py
+│   │   ├── count_processing.py
+│   │   └── covid.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_count.py
+│       └── test_covid.py
+├── data_check.py
+├── docs
+│   ├── CSE583_ComponentDiagram.pdf
+│   ├── CSE583_UseCaseDiagram.pdf
+│   ├── CSE583_technical_review.pdf
+│   ├── SoftwareDesign.pdf
+│   └── articles
+│       ├── mandate_face_covering.pdf
+│       └── mandate_social_distancing.pdf
+├── environment.yml
+├── setup.py
+└── test_repo_check.py
 ```
 
 ### Data Source
@@ -91,9 +91,3 @@ covid/
 
 #### Covid-19 State and County Policy
   - State and county orders held by [HealthData.gov](https://healthdata.gov/dataset/covid-19-state-and-county-policy-orders)
-
-### History
-
-### Limitation
-
-### Acknowledgements
