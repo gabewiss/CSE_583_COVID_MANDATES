@@ -2,7 +2,7 @@
    the data sources and found at:
 
    https://raw.githubusercontent.com/nytimes/
-   covid-19-data/master/us-states.csvv
+   covid-19-data/master/us-states.csv
 
    and
 
@@ -17,14 +17,18 @@ from urllib import request
 
 def repo_check():
 
-    """Uses urlib request to determine if there are any access issues to
+    """
+    
+    Uses urlib request to determine if there are any access issues to
     data repos
 
     HTTP Status Codes: 200: OK, 400: Bad Request, 403: Forbidden,
                        404: Not Found
 
     Args: none
-    Returns: True """
+    Returns: True
+
+    """
 
     resp1 = request.urlopen('https://raw.githubusercontent.com/nytimes/covid-'
                             '19-data/master/us-states.csv')
@@ -33,4 +37,7 @@ def repo_check():
     if resp1.code == 200 and resp2.code == 200:
         return True
     else:
-        return False
+        return
+
+
+    def
