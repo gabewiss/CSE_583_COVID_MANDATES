@@ -20,11 +20,20 @@ Includes
 * Oliver Li
 * Gabriel Wisswaesser
 
+### Example
+
+### Tutorial
+
 ### Software dependencies and license information
 
 
 ### Installation
+With `conda`, install `Dash`, `Pandas`, `Plotly` and `urllib`.    
 
+    conda install dash
+    conda install pandas
+    conda install plotly
+    conda install urllib
 
 ### Directory Summary
 
