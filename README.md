@@ -22,9 +22,12 @@ Includes
 * Gabriel Wisswaesser
 
 ### Example & Tutorials
-<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/choropleth_example.png" width=50% height=50%>
+* Choropleth of the United States
 
-<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=50% height=50%>
+<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/choropleth_example.png" width=70% height=70%>
+
+* Line graphs of states with when certain mandates were implemented
+<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=70% height=70%>
 
 
 ### Software dependencies and license information
