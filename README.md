@@ -21,9 +21,9 @@ Includes
 * Oliver Li
 * Gabriel Wisswaesser
 
-### Example
+### Example & Tutorials
 
-### Tutorial
+
 
 ### Software dependencies and license information
 
@@ -37,6 +37,9 @@ Instruction to run the softeware locally
 4.
 
 ### Directory Summary
+We have _docs_ directory, where related articles, component design, and use cases can be located.
+
+Then, we have _covid_ directory, where data, examples, and test codes can be located
 
 ### Directory Structure
 ```
