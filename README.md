@@ -22,7 +22,9 @@ Includes
 * Gabriel Wisswaesser
 
 ### Example & Tutorials
+<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/choropleth_example.png" width=50% height=50%>
 
+<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=50% height=50%>
 
 
 ### Software dependencies and license information
