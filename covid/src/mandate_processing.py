@@ -20,6 +20,8 @@ def mandate_processing(mandate_df):
     mandate_df -- Five most common mandates announced throughout the states,
     and drop the duplicate rows in the dataframe.
     '''
+    if 'state_id' not in mandate_df.keys():
+        raise KeyError("The input dataframe is not from the same source")
 
     policy_mandates = ["Shelter in Place",
                        "Food and Drink",
@@ -48,8 +50,6 @@ def mandate_processing(mandate_df):
 
     mandate_rows = mandate_rows.drop(['policy_level', 'start_stop'], axis=1)
 
-    if 'state_id' not in mandate_df.keys():
-        raise IOError("The input dataframe is not from the same source")
     mandate_df = mandate_df.rename(columns={'state_id': 'state'})
     mandate_df.drop_duplicates(inplace=True)
     return mandate_rows
