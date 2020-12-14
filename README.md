@@ -6,7 +6,7 @@ Project for CSE 583: COVID, Mandates, etc.
 
 ### Introduction
 
-This is a softeware that takes the latest Covid-19 case counts data updated by _New York Times_ and shows it with the Covid-19 related Mandates in the United States.
+This is a softeware that takes the latest Covid-19 case counts data updated by _Center for Disease Control(CDC)_ and shows it with the Covid-19 related Mandates in the United States.
 With this tool, we can see how effective a certain mandate is in terms of increased case counts.
 
 Includes
@@ -97,10 +97,11 @@ covid/
 
 ### Data Source
 #### Covid-19 Case Counts
-  - Covid-19 data repository held by [New York Times](https://github.com/nytimes/covid-19-data)
+  - Covid-19 data repository held by [CDC](https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36)
 
 #### Covid-19 State and County Policy
-  - State and county orders held by [HealthData.gov](https://healthdata.gov/dataset/covid-19-state-and-county-policy-orders)
+  - State and county orders held by [HealthData.gov](https://healthdata.gov/node/3281076/)
 
 ### Limitation
 Although the softeware is designed to continuously update the data from the data source, the repository may not be continuously maintained beyond December 2020.
+The population data is from December 2020, before the new census data.
