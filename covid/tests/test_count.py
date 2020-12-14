@@ -37,7 +37,7 @@ class CountTest(unittest.TestCase):
                          'new_case'])
         self.pop_df =\
             pd.DataFrame(list(zip(state, pop)),
-                         columns=['state', 'population'])
+                         columns=['state_id', 'population'])
 
     # smoke test
     def test_cp_raise_no_error(self):

@@ -27,14 +27,17 @@ def count_processing(case_df, pop_df):
                           'new_death']]
     except KeyError:
         print("The dataset is from different data source")
-    case_df = pd.merge(case_df, pop_df)
-    case_df['new_case'] = case_df['new_case'] / \
-        case_df['population'] * 100000
-    case_df['new_death'] = case_df['new_death'] / \
-        case_df['population'] * 100000
-    case_df = case_df.rename(columns={'submission_date': 'date'})
-    case_df['date'] = pd.to_datetime(case_df['date'])
-    case_df['month'] = pd.to_datetime(case_df['date']).dt.month
-    case_count_monthly = case_df.groupby(['state',
-                                          'month']).sum().reset_index()
-    return case_count_monthly
+    case_count_df = pd.merge(case_df, pop_df,
+                             left_on="state",
+                             right_on="state_id")
+    case_count_df['new_case'] = case_count_df['new_case'] / \
+        case_count_df['population'] * 100000
+    case_count_df['new_death'] = case_count_df['new_death'] / \
+        case_count_df['population'] * 100000
+    case_count_df = case_count_df.rename(columns={'submission_date': 'date',
+                                                  'state_x': 'state'})
+    case_count_df['date'] = pd.to_datetime(case_count_df['date'])
+    case_count_df['month'] = pd.to_datetime(case_count_df['date']).dt.month
+    case_count_monthly = case_count_df.groupby(['state',
+                                                'month']).sum().reset_index()
+    return case_count_df, case_count_monthly

@@ -2,12 +2,6 @@
 Function to process covid mandates at the state level.
 """
 
-import pandas as pd
-
-state_mandate = pd.read_csv(
-    "https://healthdata.gov/node/3281076/download",
-    index_col=False)
-
 
 def mandate_processing(mandate_df):
     '''
@@ -50,9 +44,6 @@ def mandate_processing(mandate_df):
 
     mandate_rows = mandate_rows.drop(['policy_level', 'start_stop'], axis=1)
 
-    mandate_df = mandate_df.rename(columns={'state_id': 'state'})
-    mandate_df.drop_duplicates(inplace=True)
+    mandate_rows = mandate_rows.rename(columns={'state_id': 'state'})
+    mandate_rows.drop_duplicates(inplace=True)
     return mandate_rows
-
-
-state_mandates = mandate_processing(state_mandate)
