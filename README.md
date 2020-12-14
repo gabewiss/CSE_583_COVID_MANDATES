@@ -50,49 +50,47 @@ Then, we have _covid_ directory, where data, examples, and test codes can be loc
 
 ### Directory Structure
 ```
-covid/
-├── LICENSE
-├── README.md
-├── covid
-│   ├── Untitled\ Folder
-│   ├── __init__.py
-│   ├── data
-│   │   ├── README.txt
-│   │   ├── cleaned_mandates.ipynb
-│   │   ├── covid_count_state.csv
-│   │   ├── covid_state.csv
-│   │   ├── state_case.csv
-│   │   ├── state_mandates.csv
-│   │   ├── state_policy.csv
-│   │   ├── state_policy_updates_20201202_0721.csv
-│   │   └── states_population.csv
-│   ├── environment.yml
-│   ├── examples
-│   │   ├── Plotly_practice.ipynb
-│   │   ├── app.py
-│   │   ├── covid_state.ipynb
-│   │   ├── covid_visualization.ipynb
-│   │   └── plotly_dash_practice_JH.ipynb
-│   ├── src
-│   │   ├── __init__.py
-│   │   ├── count_processing.py
-│   │   └── covid.py
-│   └── tests
-│       ├── __init__.py
-│       ├── test_count.py
-│       └── test_covid.py
-├── data_check.py
-├── docs
-│   ├── CSE583_ComponentDiagram.pdf
-│   ├── CSE583_UseCaseDiagram.pdf
-│   ├── CSE583_technical_review.pdf
-│   ├── SoftwareDesign.pdf
-│   └── articles
-│       ├── mandate_face_covering.pdf
-│       └── mandate_social_distancing.pdf
-├── environment.yml
-├── setup.py
-└── test_repo_check.py
+covid
+    ├── LICENSE
+    ├── README.md
+    ├── covid
+    │   ├── __init__.py
+    │   ├── data
+    │   │   ├── README.txt
+    │   │   └── states_population.csv
+    │   ├── environment.yml
+    │   ├── examples
+    │   │   ├── Plotly_practice.ipynb
+    │   │   ├── app.py
+    │   │   ├── covid_state.ipynb
+    │   │   ├── covid_visualization.ipynb
+    │   │   └── plotly_dash_practice_JH.ipynb
+    │   ├── src
+    │   │   ├── __init__.py
+    │   │   ├── count_processing.py
+    │   │   ├── covid.py
+    │   │   └── mandate_processing.py
+    │   └── tests
+    │       ├── __init__.py
+    │       ├── test_count.py
+    │       ├── test_covid.py
+    │       └── test_mandate.py
+    ├── covid_no_modulized.py
+    ├── data_check.py
+    ├── docs
+    │   ├── CSE583_ComponentDiagram.pdf
+    │   ├── CSE583_UseCaseDiagram.pdf
+    │   ├── CSE583_technical_review.pdf
+    │   ├── SoftwareDesign.pdf
+    │   ├── articles
+    │   │   ├── mandate_face_covering.pdf
+    │   │   └── mandate_social_distancing.pdf
+    │   └── example_figure
+    │       ├── choropleth_example.png
+    │       └── linegraph_example.png
+    ├── environment.yml
+    ├── setup.py
+    └── test_data_check.py
 ```
 
 ### Data Source
