@@ -23,7 +23,8 @@ class CovidTest(unittest.TestCase):
         pass
         # not_important = 3
 
-        # self.assertTrue(covid.test(not_important), 'Check the data addresses')
+        # self.assertTrue(covid.test(not_important),
+        # 'Check the data addresses')
 
 
 if __name__ == '__main__':
