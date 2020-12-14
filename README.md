@@ -101,3 +101,6 @@ covid/
 
 #### Covid-19 State and County Policy
   - State and county orders held by [HealthData.gov](https://healthdata.gov/dataset/covid-19-state-and-county-policy-orders)
+
+### Limitation
+Although the softeware is designed to continuously update the data from the data source, the repository may not be continuously maintained beyond December 2020.
