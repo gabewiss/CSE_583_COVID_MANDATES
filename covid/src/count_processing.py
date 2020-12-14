@@ -22,21 +22,11 @@ def count_processing(case_df, pop_df):
     The result dataframe has the monthly case count and death count
     for each state per hundred thousand of state population size
     '''
-    # try:
-    #     case_df = case_df[['state', 'submission_date', 'new_case',
-    #                       'new_death']]
-    # except KeyError:
-    #     print("The dataset is from different data source")
-    if 'state' not in case_df.keys():
-        raise KeyError("The input dataframe is not from the same source")
-    if 'submission_date' not in case_df.keys():
-        raise KeyError("The input dataframe is not from the same source")
-    if 'new_case' not in case_df.keys():
-        raise KeyError("The input dataframe is not from the same source")
-    if 'new_death' not in case_df.keys():
-        raise KeyError("The input dataframe is not from the same source")
-    case_df = case_df[['state', 'submission_date', 'new_case',
-                       'new_death']]
+    try:
+        case_df = case_df[['state', 'submission_date', 'new_case',
+                          'new_death']]
+    except KeyError:
+        print("The dataset is from different data source")
     case_count_df = pd.merge(case_df, pop_df,
                              left_on="state",
                              right_on="state_id")

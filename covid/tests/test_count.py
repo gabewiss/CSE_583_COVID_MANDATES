@@ -48,7 +48,13 @@ class CountTest(unittest.TestCase):
         except KeyError:
             self.fail("Raise exception unexpectedly!")
     # one-shot test
+
     # edge test
+    def test_cp_raise_correct_error(self):
+        """
+        """
+        with self.assertRaises(KeyError):
+            cp.count_processing(self.wrong_df, self.pop_df)
 
 
 if __name__ == '__main__':
