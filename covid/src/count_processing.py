@@ -30,9 +30,9 @@ def count_processing(case_df, pop_df):
     case_count_df = pd.merge(case_df, pop_df,
                              left_on="state",
                              right_on="state_id")
-    case_count_df['new_case'] = case_count_df['new_case'] / \
+    case_count_df['new_case_norm'] = case_count_df['new_case'] / \
         case_count_df['population'] * 100000
-    case_count_df['new_death'] = case_count_df['new_death'] / \
+    case_count_df['new_death_norm'] = case_count_df['new_death'] / \
         case_count_df['population'] * 100000
     case_count_df = case_count_df.rename(columns={'submission_date': 'date',
                                                   'state_x': 'state'})
