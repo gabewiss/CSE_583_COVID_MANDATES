@@ -37,8 +37,7 @@ def count_data_vet_import():
         state_count = pd.read_csv('https://data.cdc.gov/api/views/9mfq-cb36'
                                   '/rows.csv?accessType=DOWNLOAD')
         return state_count
-    # else:
-        # return print('URL issues. Check data source availability')
+
 
 
 def mandate_data_vet_import():
@@ -61,5 +60,3 @@ def mandate_data_vet_import():
         state_mandate = pd.read_csv('https://healthdata.gov/node/'
                                     '3281076/download')
         return state_mandate
-    # else:
-        # return print('URL issues. check data source avalability')
