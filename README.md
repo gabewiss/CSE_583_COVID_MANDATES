@@ -6,7 +6,7 @@ Project for CSE 583: COVID, Mandates, etc.
 
 ### Introduction
 
-This is a softeware that takes the latest Covid-19 case counts data updated by _New York Times_ and shows it with the Covid-19 related Mandates in the United States.
+This is a softeware that takes the latest Covid-19 case counts data updated by _Center for Disease Control(CDC)_ and shows it with the Covid-19 related Mandates in the United States.
 With this tool, we can see how effective a certain mandate is in terms of increased case counts.
 
 Includes
@@ -21,13 +21,13 @@ Includes
 * Oliver Li
 * Gabriel Wisswaesser
 
-### Example & Tutorials
+### Example
 * Choropleth of the United States
 
 <img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/choropleth_example.png" width=70% height=70%>
 
-
-
+<br>
+<br>
 * Line graphs of states with when certain mandates were implemented
 <img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=70% height=70%>
 
@@ -39,9 +39,11 @@ Includes
 Instruction to run the softeware locally   
 
 1. Clone the git repo: 'git clone https://github.com/gabewiss/covid.git'
-2. Create the conda environment: 'conda env create -f environment.yml'
-3.
-4.
+2. Go into 'covid' -> 'src'
+3. Run 'covid.py' file in the terminal
+'python covid.py'
+4. Visit http://127.0.0.1:8050/ in your web browser
+
 
 ### Directory Summary
 We have _docs_ directory, where related articles, component design, and use cases can be located.
@@ -50,57 +52,57 @@ Then, we have _covid_ directory, where data, examples, and test codes can be loc
 
 ### Directory Structure
 ```
-covid/
-├── LICENSE
-├── README.md
-├── covid
-│   ├── Untitled\ Folder
-│   ├── __init__.py
-│   ├── data
-│   │   ├── README.txt
-│   │   ├── cleaned_mandates.ipynb
-│   │   ├── covid_count_state.csv
-│   │   ├── covid_state.csv
-│   │   ├── state_case.csv
-│   │   ├── state_mandates.csv
-│   │   ├── state_policy.csv
-│   │   ├── state_policy_updates_20201202_0721.csv
-│   │   └── states_population.csv
-│   ├── environment.yml
-│   ├── examples
-│   │   ├── Plotly_practice.ipynb
-│   │   ├── app.py
-│   │   ├── covid_state.ipynb
-│   │   ├── covid_visualization.ipynb
-│   │   └── plotly_dash_practice_JH.ipynb
-│   ├── src
-│   │   ├── __init__.py
-│   │   ├── count_processing.py
-│   │   └── covid.py
-│   └── tests
-│       ├── __init__.py
-│       ├── test_count.py
-│       └── test_covid.py
-├── data_check.py
-├── docs
-│   ├── CSE583_ComponentDiagram.pdf
-│   ├── CSE583_UseCaseDiagram.pdf
-│   ├── CSE583_technical_review.pdf
-│   ├── SoftwareDesign.pdf
-│   └── articles
-│       ├── mandate_face_covering.pdf
-│       └── mandate_social_distancing.pdf
-├── environment.yml
-├── setup.py
-└── test_repo_check.py
+covid
+    ├── LICENSE
+    ├── README.md
+    ├── covid
+    │   ├── __init__.py
+    │   ├── data
+    │   │   ├── README.txt
+    │   │   └── states_population.csv
+    │   ├── environment.yml
+    │   ├── examples
+    │   │   ├── Plotly_practice.ipynb
+    │   │   ├── app.py
+    │   │   ├── covid_state.ipynb
+    │   │   ├── covid_visualization.ipynb
+    │   │   └── plotly_dash_practice_JH.ipynb
+    │   ├── src
+    │   │   ├── __init__.py
+    │   │   ├── count_processing.py
+    │   │   ├── covid.py
+    │   │   └── mandate_processing.py
+    │   └── tests
+    │       ├── __init__.py
+    │       ├── test_count.py
+    │       ├── test_covid.py
+    │       └── test_mandate.py
+    ├── covid_no_modulized.py
+    ├── data_check.py
+    ├── docs
+    │   ├── CSE583_ComponentDiagram.pdf
+    │   ├── CSE583_UseCaseDiagram.pdf
+    │   ├── CSE583_technical_review.pdf
+    │   ├── SoftwareDesign.pdf
+    │   ├── articles
+    │   │   ├── mandate_face_covering.pdf
+    │   │   └── mandate_social_distancing.pdf
+    │   └── example_figure
+    │       ├── choropleth_example.png
+    │       └── linegraph_example.png
+    ├── environment.yml
+    ├── setup.py
+    └── test_data_check.py
 ```
 
 ### Data Source
 #### Covid-19 Case Counts
-  - Covid-19 data repository held by [New York Times](https://github.com/nytimes/covid-19-data)
+  - Covid-19 data repository held by [CDC](https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36)
 
 #### Covid-19 State and County Policy
-  - State and county orders held by [HealthData.gov](https://healthdata.gov/dataset/covid-19-state-and-county-policy-orders)
+  - State and county orders held by [HealthData.gov](https://healthdata.gov/node/3281076/)
 
 ### Limitation
 Although the softeware is designed to continuously update the data from the data source, the repository may not be continuously maintained beyond December 2020.
+The population data is from December 2020, before the new census data.
+The software is coded for the data of the year 2020. Once it's 2021, it might not properly represent the data.

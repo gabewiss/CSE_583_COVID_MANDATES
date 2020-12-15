@@ -67,8 +67,9 @@ app.layout = html.Div([
               html.Br(),
               dcc.RadioItems(id='line_case_death',
                              options=[{'label': i, 'value': i}
-                                      for i in ['new_case', 'new_death']],
-                             value='new_case',
+                                      for i in ['new_case_norm',
+                                      'new_death_norm']],
+                             value='new_case_norm',
                              labelStyle={'display': 'inline-block'}
                              )
               ],
