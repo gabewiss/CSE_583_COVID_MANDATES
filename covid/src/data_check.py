@@ -39,7 +39,6 @@ def count_data_vet_import():
         return state_count
 
 
-
 def mandate_data_vet_import():
     """
     Import of state count data from cdc.gov
