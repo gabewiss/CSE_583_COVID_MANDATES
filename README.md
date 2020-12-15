@@ -105,3 +105,4 @@ covid
 ### Limitation
 Although the softeware is designed to continuously update the data from the data source, the repository may not be continuously maintained beyond December 2020.
 The population data is from December 2020, before the new census data.
+The software is coded for the data of the year 2020. Once it's 2021, it might not properly represent the data.
