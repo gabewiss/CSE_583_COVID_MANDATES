@@ -21,13 +21,13 @@ Includes
 * Oliver Li
 * Gabriel Wisswaesser
 
-### Example & Tutorials
+### Example
 * Choropleth of the United States
 
 <img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/choropleth_example.png" width=70% height=70%>
 
-
-
+<br>
+<br>
 * Line graphs of states with when certain mandates were implemented
 <img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=70% height=70%>
 
@@ -39,9 +39,11 @@ Includes
 Instruction to run the softeware locally   
 
 1. Clone the git repo: 'git clone https://github.com/gabewiss/covid.git'
-2. Create the conda environment: 'conda env create -f environment.yml'
-3.
-4.
+2. Go into 'covid' -> 'src'
+3. Run 'covid.py' file in the terminal
+'python covid.py'
+4. Visit http://127.0.0.1:8050/ in your web browser
+
 
 ### Directory Summary
 We have _docs_ directory, where related articles, component design, and use cases can be located.
