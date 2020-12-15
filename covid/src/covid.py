@@ -143,6 +143,12 @@ def update_lineplot_graph(click, n_clicks, input1, input2):
         mode='lines',
         name=click + " count"))
 
+    fig1.update_layout(
+        title=input1 + " line plot",
+        yaxis_title="count(per 100,000 people)",
+        xaxis_title="date"
+    )
+
     i = 0
     count = state_count_cp_1[click].tolist()
     count.sort()
@@ -166,6 +172,12 @@ def update_lineplot_graph(click, n_clicks, input1, input2):
         y=state_count_cp_2[click],
         mode='lines',
         name=click + " count"))
+
+    fig2.update_layout(
+        title=input2 + " line plot",
+        yaxis_title="count(per 100,000 people)",
+        xaxis_title="date"
+    )
 
     i = 0
     count = state_count_cp_2[click].tolist()
