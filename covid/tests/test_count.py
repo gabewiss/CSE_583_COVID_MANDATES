@@ -34,9 +34,11 @@ class CountTest(unittest.TestCase):
         one_shot_death = [1, 2, 3]
         one_shot_pop = [100000, 200000, 300000]
         one_shot_month = [1, 2, 3]
-        one_shot_new_case = [1, 1, 1]
-        one_shot_new_death = [1, 1, 1]
+        one_shot_new_case = [1, 2, 3]
+        one_shot_new_death = [1, 2, 3]
         one_shot_state = ['CA', 'TX', 'WA']
+        one_shot_new_case_norm = [1, 1, 1]
+        one_shot_new_death_norm = [1, 1, 1]
         self.correct_df =\
             pd.DataFrame(list(zip(state, date, case, death)),
                          columns=['state', 'submission_date',
@@ -60,9 +62,12 @@ class CountTest(unittest.TestCase):
         self.one_shot_monthly_df =\
             pd.DataFrame(list(zip(one_shot_state, one_shot_month,
                                   one_shot_new_case,
-                                  one_shot_new_death, one_shot_pop)),
+                                  one_shot_new_death, one_shot_pop,
+                                  one_shot_new_case_norm,
+                                  one_shot_new_death_norm)),
                          columns=['state', 'month', 'new_case',
-                                  'new_death', 'population'])
+                                  'new_death', 'population',
+                                  'new_case_norm', 'new_death_norm'])
 
     # smoke test
     def test_cp_raise_no_error(self):
