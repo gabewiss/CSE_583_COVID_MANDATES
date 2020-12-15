@@ -15,11 +15,8 @@ from data_check import count_data_vet_import, mandate_data_vet_import
 from mandate_processing import mandate_processing
 
 
-
 state_mandate = mandate_data_vet_import()
-
 state_count = count_data_vet_import()
-
 state_population = pd.read_csv(
     "../data/states_population.csv",
     index_col=False)
