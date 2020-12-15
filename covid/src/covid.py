@@ -11,15 +11,14 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from count_processing import count_processing
+from data_check import count_data_vet_import, mandate_data_vet_import
 from mandate_processing import mandate_processing
 
-state_mandate = pd.read_csv(
-    "https://healthdata.gov/node/3281076/download",
-    index_col=False)
 
-state_count = pd.read_csv(
-    "https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD",
-    index_col=False)
+
+state_mandate = mandate_data_vet_import()
+
+state_count = count_data_vet_import()
 
 state_population = pd.read_csv(
     "../data/states_population.csv",
