@@ -74,10 +74,7 @@ class CountTest(unittest.TestCase):
         """
         A smoke test to see if the function works correctly
         """
-        try:
-            cp.count_processing(self.correct_df, self.pop_df)
-        except KeyError:
-            self.fail("Raise exception unexpectedly!")
+        cp.count_processing(self.correct_df, self.pop_df)
 
     # one-shot test
     def test_cp_compare_expected_result(self):
