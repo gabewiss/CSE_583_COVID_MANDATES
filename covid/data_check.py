@@ -12,13 +12,14 @@
    Author: Gabriel Wisswaesser
    """
 
+import pandas as pd
 from urllib import request
 
 
 def repo_check():
 
     """
-    
+
     Uses urlib request to determine if there are any access issues to
     data repos
 
@@ -37,7 +38,20 @@ def repo_check():
     if resp1.code == 200 and resp2.code == 200:
         return True
     else:
-        return
+        return "One or both of these dataframes are not pandas dataframes"
 
 
-    def
+def object_check(state_count, state_mandate):
+    """
+
+    This function uses isinstance to make pandas.DataFrames are being
+    passed
+
+    Args: state_count, state_mandate
+    Returns: boolean response
+
+    """
+    if isinstance(state_count, pd.DataFrame) and (state_mandate, pd.DataFrame):
+        return True
+    else:
+        return False
