@@ -39,9 +39,9 @@ Includes
 Instruction to run the softeware locally   
 
 1. Clone the git repo: 'git clone https://github.com/gabewiss/covid.git'
-2. Go into 'covid' -> 'src'
-3. Run 'covid.py' file in the terminal
-'python covid.py'
+2. Go into `src` directory in the terminal
+3. Run `covid.py` file
+`python covid.py`
 4. Visit http://127.0.0.1:8050/ in your web browser
 
 
