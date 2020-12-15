@@ -15,7 +15,7 @@ Author: Gabriel Wisswaesser
 import pandas as pd
 import unittest
 
-import data_check
+from src import data_check
 
 
 class TestDataRetrieval(unittest.TestCase):

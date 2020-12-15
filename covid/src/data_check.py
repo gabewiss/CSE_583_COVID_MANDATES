@@ -1,13 +1,13 @@
 """This module is used to checks the reponse request for
    the data sources and found at:
 
-   https://raw.githubusercontent.com/nytimes/
-   covid-19-data/master/us-states.csv
+   https://data.cdc.gov/api/views/9mfq-cb36
+   /rows.csv?accessType=DOWNLOAD
 
    and
 
-   https://healthdata.gov/sites/default/files/
-   state_policy_updates_20201202_0721.csv
+   https://healthdata.gov/node/
+   3281076/download
    ________________________________________
    Author: Gabriel Wisswaesser
    """
