@@ -12,7 +12,7 @@ With this tool, we can see how effective a certain mandate is in terms of increa
 Includes
 1. A choropleth of USA to see the overview of monthly positive Covid-19 counts of each state.
 
-2. Line graphs of states with markers of mandates.
+2. Line graphs of states to compare (cases/100K).
 
 ### Team Members
 
@@ -24,12 +24,12 @@ Includes
 ### Example
 * Choropleth of the United States
 
-<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/choropleth_example.png" width=70% height=70%>
+<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/choropleth_example.png" width=85% height=85%>
 
 <br>
 <br>
 * Line graphs of states with when certain mandates were implemented
-<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=70% height=70%>
+<img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=85% height=85%>
 
 
 ### Software dependencies and license information
@@ -65,8 +65,7 @@ covid
     │   │   ├── Plotly_practice.ipynb
     │   │   ├── app.py
     │   │   ├── covid_state.ipynb
-    │   │   ├── covid_visualization.ipynb
-    │   │   └── plotly_dash_practice_JH.ipynb
+    │   │   └── covid_visualization.ipynb
     │   ├── src
     │   │   ├── __init__.py
     │   │   ├── count_processing.py
