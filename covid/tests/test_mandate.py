@@ -41,10 +41,7 @@ class CountTest(unittest.TestCase):
         """
         Smoke test to check whether this function catches fire
         """
-        try:
-            mp.mandate_processing(self.correct_df)
-        except KeyError:
-            self.fail("Raise exception unexpectedly!")
+        mp.mandate_processing(self.correct_df)
 
     def test_mp_raiseError(self):
         """
