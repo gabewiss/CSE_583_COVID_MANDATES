@@ -66,26 +66,21 @@ covid
     ├── covid
     │   ├── __init__.py
     │   ├── data
-    │   │   ├── README.txt
     │   │   └── states_population.csv
     │   ├── environment.yml
     │   ├── examples
-    │   │   ├── Plotly_practice.ipynb
-    │   │   ├── app.py
-    │   │   ├── covid_state.ipynb
-    │   │   └── covid_visualization.ipynb
+    │   │   └── example of choropleth and line graph.ipynb
     │   ├── src
     │   │   ├── __init__.py
     │   │   ├── count_processing.py
     │   │   ├── covid.py
+    │   │   ├── data_check.py
     │   │   └── mandate_processing.py
     │   └── tests
     │       ├── __init__.py
     │       ├── test_count.py
     │       ├── test_covid.py
     │       └── test_mandate.py
-    ├── covid_no_modulized.py
-    ├── data_check.py
     ├── docs
     │   ├── CSE583_ComponentDiagram.pdf
     │   ├── CSE583_UseCaseDiagram.pdf
@@ -98,8 +93,7 @@ covid
     │       ├── choropleth_example.png
     │       └── linegraph_example.png
     ├── environment.yml
-    ├── setup.py
-    └── test_data_check.py
+    └── setup.py
 ```
 
 ### Data Source
