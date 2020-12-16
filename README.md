@@ -28,6 +28,7 @@ Includes
 
 <br>
 <br>
+
 * Line graphs of states with when certain mandates were implemented
 <img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=85% height=85%>
 
