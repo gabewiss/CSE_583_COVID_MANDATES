@@ -32,8 +32,15 @@ Includes
 <img src="https://github.com/gabewiss/covid/blob/main/docs/example_figure/linegraph_example.png" width=85% height=85%>
 
 
-### Software dependencies and license information
-
+### Software dependencies
+#### Python Packages
+* Dash
+* Dash_core_components
+* Dash_html_components
+* Dash.dependencies
+* Pandas
+* Plotly.express
+* Plotly.graph_objects
 
 ### Installation
 Instruction to run the softeware locally   
