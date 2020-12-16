@@ -4,5 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 .gitignore
 .coveragerc
-Gabe_notebook.ipynb
 .DS_Store
