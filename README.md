@@ -86,6 +86,8 @@ covid
     │   ├── CSE583_UseCaseDiagram.pdf
     │   ├── CSE583_technical_review.pdf
     │   ├── SoftwareDesign.pdf
+    │   ├── CSE583 presentation covid-mandate.mp4.zip
+    │   ├── final_presentation.mp4
     │   ├── articles
     │   │   ├── mandate_face_covering.pdf
     │   │   └── mandate_social_distancing.pdf
