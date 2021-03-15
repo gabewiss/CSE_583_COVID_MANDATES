@@ -56,6 +56,7 @@ def mandate_data_vet_import():
     # if resp1.code is 200, then the URL is open for business
     # otherwise cursory URl issue is printed
     if resp1.code == 200:
-        state_mandate = pd.read_csv('https://healthdata.gov/node/'
+        # TODO this code needs to be ported over to the new API but for the next two weeks... adding legacy will make it work.. 
+        state_mandate = pd.read_csv('https://legacy.healthdata.gov/node/'
                                     '3281076/download')
         return state_mandate
